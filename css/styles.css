@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.canvas-container {
+    border: 2px solid green;
+    width: fit-content; /* Ajusta o tamanho do container ao tamanho do canvas */
+    padding: 30px; /* Adiciona espaçamento ao redor do canvas */
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Jersey 15';
+    src: url('../utils/fonts/Jersey15-Regular.ttf') format('truetype');
+}
+
+canvas {
+    background-color: black;
+}
+
+#matrixCanvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: black;
+}
+
+h2 {
+    font-family: 'Jersey 15', sans-serif; /* Use a fonte Jersey 15 */
+    position: absolute;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    left: 20px; /* Ajuste a distância da esquerda conforme necessário */
+    color: green; /* Cor do texto */
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    color: green;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
