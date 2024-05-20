@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Jersey 15';
+    src: url('../utils/fonts/Jersey15-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+} */
+
+p{
+    color: green;
+    font-family: 'Jersey 15', sans-serif;
+}
+
+#matrixCanvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    background-color: black;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h2 {
+    font-family: 'Jersey 15', sans-serif; /* Use a fonte Jersey 15 */
+    position: absolute;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    left: 20px; /* Ajuste a distância da esquerda conforme necessário */
+    color: green; /* Cor do texto */
+    display: flex;
+    align-items: center; 
+}
+
+
+h2 i {
+    color: green;
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+hr{
+    color: green;
+}
+
+/* RADAR & CONTAINER */
+#radarCanvas{
+    margin-top: 50px;
+    width: 1500px;
+}
+
+.canvas-container {
+    border: 2px solid green;
+    width: fit-content; /* Ajusta o tamanho do container ao tamanho do canvas */
+    padding: 48px; /* Adiciona espaçamento ao redor do canvas */
+    padding-bottom: 180px;
+    position: relative;
+}
